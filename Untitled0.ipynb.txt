@@ -1,0 +1,166 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xg-joi_w_pxH",
+        "outputId": "93e03b00-6134-4338-c3f7-34b3d22d960e"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ],
+      "source": [
+        "a=5\n",
+        "a"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "X,Y= 3.1432,7.98214\n",
+        "X,Y\n",
+        "print(X+Y)\n",
+        "print(X*Y)\n",
+        "print(X-Y)\n",
+        "print(X/Y)\n",
+        "print(X**Y)\n",
+        "print(X%Y)\n",
+        "print(X//Y)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VpUDC--TAMkQ",
+        "outputId": "86f21e2b-b01b-4c1c-86c9-62826e771149"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "11.125340000000001\n",
+            "25.089462448000003\n",
+            "-4.83894\n",
+            "0.3937791118672436\n",
+            "9334.543034079248\n",
+            "3.1432\n",
+            "0.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=\"Ganesh Baban Borse\"\n",
+        "b=9140\n",
+        "c=\"TYBSc\"\n",
+        "print(a,b,c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vuFSdbTGEEEj",
+        "outputId": "38f926cd-7f2b-425f-e1a9-3fca6834dfb8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ganesh Baban Borse 9140 TYBSc\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "DUaguZJZGFVN"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 148
+        },
+        "id": "bE3d0ecMFqd6",
+        "outputId": "7aa73738-d2cd-4e54-b00f-49197e3d2a28"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-17-39b3defa6254>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    import(\"Math\")\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "BSrHe11PCrqy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "-VjHRdmsASvq"
+      }
+    }
+  ]
+}

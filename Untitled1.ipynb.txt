@@ -1,0 +1,161 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "collapsed_sections": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qnkuudYadO9D",
+        "outputId": "1eba95eb-d7e3-4100-af14-a04fe4c3e0d9"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ganesh Borse\n",
+            "GANESH\n"
+          ]
+        }
+      ],
+      "source": [
+        "Name=\"Ganesh\"\n",
+        "Surname=\"Borse\"\n",
+        "print(Name+\" \"+Surname)\n",
+        "print(Name.upper())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "rJLZmFaqi2Mi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=2.3\n",
+        "b=312\n",
+        "c=3J\n",
+        "A=int(a)\n",
+        "B=float(b)\n",
+        "print(A,B)\n",
+        "D=complex(A,B)\n",
+        "print(D m n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "D-Cmj2HidryY",
+        "outputId": "1f5c3825-0e43-4257-e963-bf0878101987"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2 312.0\n",
+            "(2+312j)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "Name=input()\n",
+        "Age=input()¹\n",
+        "Class=\"TYBSc\"\n",
+        "College=\"Sir Parshurambhau Clg\"\n",
+        "\"My name is {} and I am {} ,studying in{} FROM {}\".format(Name,Age,Class,College)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 104
+        },
+        "id": "PmKiGInSi33v",
+        "outputId": "28b06e2f-0e0f-469c-9386-475f8319d04c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ganesh\n",
+            "20\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'My name is Ganesh and I am 20 ,studying inTYBSc FROM Sir Parshurambhau Clg'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "quantity=3\n",
+        "item=\"Bread\"\n",
+        "price=5\n",
+        "country=\"India\"\n",
+        "myorder=\"I want {d} pieces of {b} for {c} rupees in {a} currency\"\n",
+        "print(myorder.format(b=item,d=quantity,c=price,a=country))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mw9UegpNmcHg",
+        "outputId": "700961fd-a5fe-439f-8df4-208ec5988881"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I want 3 pieces of Bread for 5 rupees in India currency\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
